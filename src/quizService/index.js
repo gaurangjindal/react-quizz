@@ -1,16 +1,16 @@
 const qBank = [
   {
     question:
-      "Virgin Trains, Virgin Atlantic and Virgin Racing, are all companies owned by which famous entrepreneur?   ",
-    answers: ["Richard Branson", "Alan Sugar", "Donald Trump", "Bill Gates"],
-    correct: "Richard Branson",
+      "which of the following is invalid identifiers?",
+    answers: ["sum-1", "sum_1", "power", "power_1"],
+    correct: "sum-1",
     questionId: "099099"
   },
   {
     question:
-      'Where is the train station "Llanfair­pwllgwyngyll­gogery­chwyrn­drobwll­llan­tysilio­gogo­goch"?',
-    answers: ["Wales", "Moldova", "Czech Republic", "Denmark"],
-    correct: "Wales",
+      "Which of the following is not a math function?",
+    answers: ["acos", "sine", "cosh", "None of the above"],
+    correct: "None of the above",
     questionId: "183452"
   },
   {
@@ -21,352 +21,343 @@ const qBank = [
     questionId: "267908"
   },
   {
-    question: "What's the name of Batman's  parents?",
+    question: "which of the following is not a type of operator?",
     answers: [
-      "Thomas & Martha",
-      "Joey & Jackie",
-      "Jason & Sarah",
-      "Todd & Mira"
+      "Comma operator",
+      "unary operator",
+      "binary operator",
+      "None of the above"
     ],
-    correct: "Thomas & Martha",
+    correct: "None of the above",
     questionId: "333247"
   },
   {
-    question: "What is the most common surname Wales?",
-    answers: ["Jones", "Williams", "Davies", "Evans"],
-    correct: "Jones",
+    question: "Pick out the compound assignment statement",
+    answers: ["x=x-5", "x=x/y", "x-=5", "x=x+5"],
+    correct: "x-=5",
     questionId: "496293"
   },
   {
     question:
-      "What was the name of the WWF professional wrestling tag team made up of the wrestlers Ax and Smash?",
+      "What is the use of dynamic_cast operator?",
     answers: [
-      "Demolition",
-      "The Dream Team",
-      "The Bushwhackers",
-      "The British Bulldogs"
+      "It converts virtual base class to derived class",
+      "It converts the virtual base object to derived objects",
+      "It will convert the operator based on precedence",
+      "It converts the virtual base object to derived class"
     ],
-    correct: "Demolition",
+    correct: "It converts virtual base class to derived class",
     questionId: "588909"
   },
   {
     question:
-      'What name represents the letter "M" in the NATO phonetic alphabet?',
-    answers: ["Mike", "Matthew", "Mark", "Max"],
-    correct: "Mike",
+      "Which operator is having the highest precedence?",
+    answers: ["Postfix", "unary", "shift", "quality"],
+    correct: "Postfix",
     questionId: "648452"
   },
   {
-    question: "What is the first book of the Old Testament?",
-    answers: ["Genesis", "Exodus", "Leviticus", "Numbers"],
-    correct: "Genesis",
+    question: "which data type can be used to declare the given statement -2x(10^6) <= n <= 2x(10^6)",
+    answers: ["long int n", "int n", "unsigned int n", "unsigned long int n"],
+    correct: "long int n",
     questionId: "786649"
   },
   {
     question:
-      "In the video-game franchise Kingdom Hearts, the main protagonist, carries a weapon with what shape?",
-    answers: ["Key", "Sword", "Pen", "Cellphone"],
-    correct: "Key",
+      "What does ‘\a’ escape code represent?",
+    answers: ["alert", "backslash", "tab", "form feed"],
+    correct: "alert",
     questionId: "839754"
   },
   {
     question:
-      "Which best selling toy of 1983 caused hysteria, resulting in riots breaking out in stores?",
+      "What is the size of wchar_t in C++",
     answers: [
-      "Cabbage Patch Kids",
-      "Transformers",
-      "Care Bears",
-      "Rubik’s Cube"
+        "2",
+      "4",
+      "2 or 4",
+      "Based on the number of bits in the system"
     ],
-    correct: "Cabbage Patch Kids",
+    correct: "Based on the number of bits in the system",
     questionId: "98390"
   },
   {
-    question: "What does a funambulist walk on?",
-    answers: ["A Tight Rope", "Broken Glass", "Balls", "The Moon"],
-    correct: "A Tight Rope",
+    question: "Which of the following is a type of Arithmetic operator?",
+    answers: ["Binary Operator", "Relational operator", "Logical operator", "None of the above"],
+    correct: "Binary Operator",
     questionId: "1071006"
   },
   {
-    question: "In past times, what would a gentleman keep in his fob pocket?",
-    answers: ["Watch", "Money", "Keys", "Notebook"],
-    correct: "Watch",
+    question: "which of the following is considered as a relational operator?",
+    answers: ["<,<=,>=", "+=,-=,*=", "++,--", "None of the above"],
+    correct: "<,<=,>=",
     questionId: "1174154"
   },
   {
-    question: "Area 51 is located in which US state?",
-    answers: ["Nevada", "Arizona", "New Mexico", "Utah"],
-    correct: "Nevada",
+    question: "which of the following is considered as a logical operator?",
+    answers: ["&,|,~", "+,-,*", "&&,||,!", "++,--,**"],
+    correct: "&&,||,!",
     questionId: "1226535"
   },
   {
-    question: "How would one say goodbye in Spanish?",
-    answers: ["Adiós", " Hola", "Au Revoir", "Salir"],
-    correct: "Adiós",
+    question: "which of the following is not a set of binary operators?",
+    answers: ["+,-,*", " ++,--,*", "+,*,/", "&&,||,!"],
+    correct: "++,--,*",
     questionId: "1310938"
   },
   {
-    question: "What is the largest organ of the human body?",
-    answers: ["Skin", "Heart", "large Intestine", "Liver"],
-    correct: "Skin",
+    question: "i++ is an example of..",
+    answers: ["Post-increment", "Pre-increment", "post-decrement", "Pre-decrement"],
+    correct: "Post-increment",
     questionId: "1436873"
   },
   {
-    question: "Which sign of the zodiac is represented by the Crab?",
-    answers: ["Cancer", "Libra", "Virgo", "Sagittarius"],
-    correct: "Cancer",
+    question: "In C++ the words that is already defined and is reserved for a single special purpose, is called as",
+    answers: ["functions", "statements", "keywords", "identifiers"],
+    correct: "keywords",
     questionId: "1515110"
   },
   {
-    question: "On a dartboard, what number is directly opposite No. 1?",
-    answers: ["19", "20", "12", "15"],
-    correct: "19",
+    question: "which of the following does not belong to reserved words",
+    answers: ["alignof", "dynamic_cast", "xor", "string"],
+    correct: "string",
     questionId: "1642728"
   },
   {
     question:
-      "What does the 'S' stand for in the abbreviation SIM, as in SIM card? ",
-    answers: ["Subscriber", "Single", "Secure", "Solid"],
-    correct: "Subscriber",
+      "Can we use keywords that cannot be used as an identifier?",
+    answers: ["True", "False", "Statement is invalid", "None of the above"],
+    correct: "False",
     questionId: "1747256"
   },
   {
     question:
-      "What word represents the letter 'T' in the NATO phonetic alphabet?",
-    answers: ["Tango", "Target", "Taxi", "Turkey"],
-    correct: "Tango",
+      "choose the odd one out .",
+    answers: ["auto", "case", "unsigned", "int"],
+    correct: "int",
     questionId: "1822532"
   },
   {
-    question: "Which American president appears on a one dollar bill?",
+    question: "C++ Language supports more than ____ keywords.",
     answers: [
-      "George Washington",
-      "Thomas Jefferson",
-      "Abraham Lincoln",
-      "Benjamin Franklin"
+      "64",
+      "84",
+      "36",
+      "102"
     ],
-    correct: "George Washington",
+    correct: "64",
     questionId: "195075"
   },
   {
-    question: 'What is "dabbing"?',
-    answers: ["A dance", "A medical procedure", "A sport", "A language"],
-    correct: "A dance",
+    question: "Every Keyword exists in lower case",
+    answers: ["True", "False"],
+    correct: "True",
     questionId: "2019778"
   },
   {
-    question: "What is the name of the Jewish New Year?",
-    answers: ["Rosh Hashanah", "Elul", "New Year", "Succoss"],
-    correct: "Rosh Hashanah",
+    question: "Signed is the default modifier for char and int data types.",
+    answers: ["True", "False"],
+    correct: "True",
     questionId: "2134343"
   },
   {
-    question: "Which one of the following rhythm games was made by Harmonix?",
+    question: "What is the syntax of user-defined data types?",
     answers: [
-      "Rock Band",
-      "Meat Beat Mania",
-      "Guitar Hero Live",
-      "Dance Dance Revolution"
+      "typedef standard_type new_type;",
+      "typedef new_type standard_type;",
+      "def standard_type new_type;",
+      "def new_type standard_type;"
     ],
-    correct: "Rock Band",
+    correct: "typedef standard_type new_type;",
     questionId: "2210799"
   },
   {
     question:
-      "What type of animal was Harambe, who was shot after a child fell into it's enclosure at the Cincinnati Zoo?",
-    answers: ["Gorilla", "Tiger", "Panda", "Crocodile"],
-    correct: "Gorilla",
+      "What is the size of void in bytes?",
+    answers: ["0", "1", "2", "4"],
+    correct: "0",
     questionId: "2379831"
   },
   {
-    question: "Red Vines is a brand of what type of candy?",
-    answers: ["Licorice", "Lollipop", "Chocolate", "Bubblegum"],
-    correct: "Licorice",
+    question: "If no data type is given to a variable, the compiler automatically converts it to ____ data type.",
+    answers: ["integer", "float", "Charracter", "None of the above"],
+    correct: "integer",
     questionId: "2426418"
   },
   {
-    question: "What is the nickname of the US state of California?",
-    answers: ["Golden State", "Sunshine State", "Bay State", "Treasure State"],
-    correct: "Golden State",
+    question: "What is the scope of typedef defined data types?",
+    answers: ["inside that block only", "whole program", "outside the program", "main function"],
+    correct: "whole program",
     questionId: "2510086"
   },
   {
-    question: "What is on display in the Madame Tussaud's museum in London?",
+    question: "Which of the following is considered as data modifier?",
     answers: [
-      "Wax sculptures",
-      "Designer clothing",
-      "Unreleased film reels",
-      "Vintage cars"
+      "signed",
+      "unsigned",
+      "short",
+      "none of the above"
     ],
-    correct: "Wax sculptures",
+    correct: "none of the above",
     questionId: "2685745"
   },
   {
     question:
-      "What was the nickname given to the Hughes H-4 Hercules, a heavy transport flying boat which achieved flight in 1947?",
-    answers: ["Spruce Goose", "Noah's Ark", "Fat Man", "Trojan Horse"],
-    correct: "Spruce Goose",
+      "______ datatype represents a valueless entity",
+    answers: ["enum", "union", "void", "none of the above"],
+    correct: "void",
     questionId: "2796884"
   },
   {
-    question: "Which of these colours is NOT featured in the logo for Google?",
-    answers: ["Pink", "Yellow", "Blue", "Green"],
-    correct: "Pink",
+    question: "Memory space required by the integer data type?",
+    answers: ["2 byte", "4 byte", "8 byte", "Depend upon the system configuration"],
+    correct: "Depend upon the system configuration",
     questionId: "2838900"
   },
   {
-    question: 'What is the French word for "hat"?',
-    answers: ["Chapeau", "Bonnet", " Écharpe", " Casque"],
-    correct: "Chapeau",
+    question: "Select the user-defined data types among the following?",
+    answers: ["int", "float", " reference ", " enum"],
+    correct: "enum",
     questionId: "298060"
   },
   {
-    question: "Five dollars is worth how many nickles?",
-    answers: ["100", "50", "25", "69"],
-    correct: "100",
+    question: "which of the following is not a valid Derived Data TypesDerived Data Types?",
+    answers: ["Reference (int& ref)", "pointer(int *ptr)", "Array (int A[])", "none of the above"],
+    correct: "none of the above",
     questionId: "3096579"
   },
   {
-    question: "Who is depicted on the US hundred dollar bill?",
+    question: "Which keyword is used to define the user-defined data types?",
     answers: [
-      "Benjamin Franklin",
-      "George Washington",
-      "Abraham Lincoln",
-      "Thomas Jefferson"
+      "def",
+      "union",
+      "typedef",
+      "type"
     ],
-    correct: "Benjamin Franklin",
+    correct: "typedef",
     questionId: "3182461"
   },
   {
-    question: "What do the letters in the GMT time zone stand for?",
+    question: "A variable can have alphabets, digits, underscore and keywords.",
     answers: [
-      "Greenwich Mean Time",
-      "Global Meridian Time",
-      "General Median Time",
-      "Glasgow Man Time"
+      "True",
+      "False",
     ],
-    correct: "Greenwich Mean Time",
+    correct: "false",
     questionId: "3239112"
   },
   {
-    question: "Which one of these is not a typical European sword design?",
-    answers: ["Scimitar", "Falchion", "Ulfberht", "Flamberge"],
-    correct: "Scimitar",
+    question: "Which of the following is Invalid variable names?",
+    answers: ["int 4;", "float double;", "int x,y;", "All of the above"],
+    correct: "All of the above",
     questionId: "3318503"
   },
   {
     question:
-      'According to Sherlock Holmes, "If you eliminate the impossible, whatever remains, however improbable, must be the..."',
-    answers: ["Truth", "Answer", "Cause", "Source"],
-    correct: "Truth",
+      "The correct syntax to declare a variable?",
+    answers: ["int variable_list;", "variable_list type;", "type_variable_list", "none of the above"],
+    correct: "int variable_list;",
     questionId: "3410327"
   },
   {
-    question: "What is the name of Poland in Polish?",
-    answers: ["Polska", "Pupcia", "Polszka", "Póland"],
-    correct: "Polska",
+    question: 'The "endl" is a predefined object of ______ class',
+    answers: ["istream", "ostream", "iostream", "none of the above"],
+    correct: "ostream",
     questionId: "3542596"
   },
   {
-    question: "The New York Times slogan is, “All the News That’s Fit to…”",
-    answers: ["Print", "Digest", "Look", "Read"],
-    correct: "Print",
+    question: 'The "cin" is a predefined object of ______ class.',
+    answers: ["istream", "ostream", "iostream", "none of the above"],
+    correct: "istream",
     questionId: "3667517"
   },
   {
-    question: "What do the letters of the fast food chain KFC stand for?",
-    answers: [
-      "Kentucky Fried Chicken",
-      "Kentucky Fresh Cheese",
-      "Kibbled Freaky Cow",
-      "Kiwi Food Cut"
-    ],
-    correct: "Kentucky Fried Chicken",
+    question: 'The "cout" is a predefined object of ______ class.',
+    answers: ["istream", "ostream", "iostream", "none of the above"],
+    correct: "ostream",
     questionId: "3791672"
   },
   {
-    question: "Which restaurant's mascot is a clown?",
-    answers: ["McDonald's", "Whataburger", "Burger King", "Sonic"],
-    correct: "McDonald's",
+    question: "All C++ variables must be identified with unique names. These unique names are called _________.",
+    answers: ["constant", "identifiers", "variable", "none of the above"],
+    correct: "identifiers",
     questionId: "3893585"
   },
   {
-    question: 'What color is the "Ex" in FedEx Ground?',
-    answers: ["Green", "Red", "Light Blue", "Orange"],
-    correct: "Green",
+    question: "Which of the following is a correct identifier in C++?",
+    answers: ["$var123", "var_123", "123_var", "none of the above"],
+    correct: "var_123",
     questionId: "3913430"
   },
   {
-    question: "How tall is the Burj Khalifa?",
-    answers: ["2,722 ft", "2,717 ft", "2,546 ft", "3,024 ft"],
-    correct: "2,722 ft",
+    question: "Select the odd one out.",
+    answers: ["int", "float", "enum", "bool"],
+    correct: "enum",
     questionId: "4049121"
   },
   {
     question:
-      "Which of the following card games revolves around numbers and basic math?",
-    answers: ["Uno", "Go Fish", "Twister", "Munchkin"],
-    correct: "Uno",
+      "Is there any difference in below two statements? int var = 10; int var(10);",
+    answers: ["yes", "no", "cannot say", "compile time error"],
+    correct: "no",
     questionId: "4150746"
   },
   {
     question:
-      "What machine element is located in the center of fidget spinners?",
-    answers: ["Bearings", "Axles", "Gears", "Belts"],
-    correct: "Bearings",
+      "By default ,c++ uses______ to pass arguments .",
+    answers: ["call by value", "call by pointer", "call by reference", "call by result"],
+    correct: "call by value",
     questionId: "4235063"
   },
   {
-    question: "Which sign of the zodiac comes between Virgo and Scorpio?",
-    answers: ["Libra", "Gemini", "Taurus", "Capricorn"],
-    correct: "Libra",
+    question: "____ method copies the reference of an argument into the formal parameter. Inside the function, the reference is used to access the actual argument used in the call.",
+    answers: ["call by reference", "call by value", "call by pointer", "call by result"],
+    correct: "call by reference",
     questionId: "4321002"
   },
   {
-    question: "Which of the following presidents is not on Mount Rushmore?",
+    question: "Which function can be called without using an object of a class in C++?",
     answers: [
-      "John F. Kennedy",
-      "Theodore Roosevelt",
-      "Abraham Lincoln",
-      "Thomas Jefferson"
+      "static function",
+      "inline function",
+      "friend function",
+      "constant function"
     ],
-    correct: "John F. Kennedy",
+    correct: "static function",
     questionId: "4442286"
   },
   {
-    question: "What is Tasmania?",
+    question: "Can pass structure variables as parameters to function ?",
     answers: [
-      "An Australian State",
-      "A flavor of Ben and Jerry's ice-cream",
-      "A Psychological Disorder",
-      "The Name of a Warner Brothers Cartoon Character"
+      "Yes",
+      "No"
     ],
-    correct: "An Australian State",
+    correct: "Yes",
     questionId: "4564430"
   },
   {
-    question: "What company developed the vocaloid Hatsune Miku?",
-    answers: ["Crypton Future Media", "Sega", "Sony", "Yamaha Corporation"],
-    correct: "Crypton Future Media",
+    question: "when did the inline function is expended?",
+    answers: ["run time", "compiler time", "end of program", "does not expand"],
+    correct: "run time",
     questionId: "4630606"
   },
   {
     question:
-      "Which country, not including Japan, has the most people of japanese decent?",
-    answers: ["Brazil", "China", "South Korea", "United States of America"],
-    correct: "Brazil",
+      "what is abstract class?",
+    answers: ["pure virtual function", "virtual function", "derived class", "base class"],
+    correct: "pure virtual function",
     questionId: "4795960"
   },
   {
-    question: "Which candy is NOT made by Mars?",
-    answers: ["Almond Joy", "M&M's", "Twix", "Snickers"],
-    correct: "Almond Joy",
+    question: "where the abstract class is used?",
+    answers: ["base class only", "derived class", "both derived & base class", "virtual class"],
+    correct: "base class only",
     questionId: "4811162"
   },
   {
-    question: "In which fast food chain can you order a Jamocha Shake?",
-    answers: ["Arby's", "McDonald's", "Burger King", "Wendy's"],
-    correct: "Arby's",
+    question: "which of the following is used to group together elements with different data types?",
+    answers: ["array", "union", "structure", "both union & structure"],
+    correct: "both union & structure",
     questionId: "4982981"
   }
 ];

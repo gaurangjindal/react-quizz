@@ -32,7 +32,7 @@ class QuizBee extends Component{
 
     playAgain=()=>{
         this.getQuestion();
-        TouchList.setState({
+        this.setState({
             score:0,
             response:0
         });
